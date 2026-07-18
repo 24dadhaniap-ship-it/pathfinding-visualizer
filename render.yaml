@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pathfinding-visualizer
+    env: static
+    buildCommand: npm run build
+    publishPath: dist
